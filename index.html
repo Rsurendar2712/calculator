@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="container">
+      Calculator
+          <div class="display">
+               <input type="text" id="result" value=" " placeholder="0">
+            </div>
+   <div class="buttons">
+      <div class="control" style="margin-bottom:10px;">
+         <button  id="arth"  onclick="claerdata()">C</button>
+         <button  style="border-radius: 0%;height: 20%;"  id="arth"  onclick="data('+')">+</button>
+         <button  id="arth"  onclick="data('-')">-</button>
+         <button  id="arth"  onclick="data('*')">X</button>
+         <button  id="arth"  onclick="data('%')">%</button>
+         <button onclick="data('/')">/</button>
+         
+        
+         
+       </div>
+               <div class="numerical">
+                  
+                  <div class="div1">
+                     <div class="control">
+                        <button onclick="delet('del')">⌫</button>
+                     </div>
+                     <button onclick="data('1')">1</button>
+                     <button onclick="data('4')">4</button> 
+                     <button onclick="data('7')">7</button>
+                     <button onclick="data('0')">0</button>
+                  </div>
+                  <div class="div2">
+                     <div class="control">
+                        <button  id="arth"  onclick="squre()"> <b>√</b></button>
+                     </div>
+                     <button onclick="data('2')">2</button>
+                     <button onclick="data('5')">5</button>
+                     <button onclick="data('8')">8</button>
+                     <button onclick="data('.')" style="font-weight: 20000;font-size:xxx-large;">.</button>
+                  </div>
+                  <div class="div3">
+                     <div class="control">
+                     <button  id="arth"  onclick="data('**')">^</button>
+                  </div>
+                    
+                     <button onclick="data('3')">3</button>                
+                      <button onclick="data('6')">6</button>
+                      <button onclick="data('9')">9</button> 
+                      <button onclick="equal('=')">=</button>
+
+                  </div>
+                
+
+           
+                 </div>
+                 </div>
+    </div>
+    <script src="calculator.js"></script>
+
+</body> 
+</html>
